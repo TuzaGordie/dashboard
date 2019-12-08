@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+
+}
+
+body {
+    color: gray;
+}
+
+
+
+.navbar {
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+}
+
+.img-logo {
+    width: 50px;
+    height: auto;
+}
+
+.main-header {
+    padding-left: 30px;
+}
+
+.sidebar-items ul li {
+    list-style-type: none;
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 20%;
+    padding: 5px;
+}
+
+.list-date {
+    float: right;
+}
+
+.sidebar-item ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+    font-size: .9rem;
+    padding-left: 10px;
+}
+
+.initial {
+    position: absolute;
+    bottom: 0;
+}
+
+.ck {
+    padding: 10px;
+    font-size: 1.1rem;
+    background: gray;
+    color: white;
+    border-radius: 50%;
+}
+
+.badge {
+    height: 15px;
+    width: 15px;
+    font-size: .7rem;
+    background: red;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 1px;
+    border-radius: 50%;
+
+}
+
+.secondary-header {
+    padding-top:20px;
+    padding-bottom:30px;
+    color: black;
+}
+
+.btn {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.btn-gray {
+    background-color: #e4e4e4;
+    color: gray;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+}
+
+.list-local {
+    background: none;
+}
+
+.list-journal {
+    background: none;
+}
+
+.title {
+    padding-bottom: 30px;
+}
+
+
+.secondary-title {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.topbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.topbar-items ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.top-gear {
+    background: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.top-plus {
+    background: #e96868;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    z-index: 200;
+}
+
+.top-down {
+    background: #e74f4e;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: -30px;
+    z-index: -20;
+}
+
+.tab {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tab ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+
+.main {
+    margin-left: 21%;
+    top: 0;
+    z-index: 200;
+    box-shadow: -20px 0 10px -15px #e4e4e4;
+}
+
+.main-row {
+    padding-left: 30px;
+}
+
+.tab-secondary {
+    padding-top: 30px;
+}
+
+.main-content-secondary {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sub-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dollar-sign {
+    background: darkgray;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.status-pending {
+    border: 1px solid gold ;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.status-published {
+    border: 1px solid greenyellow ;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.ruler {
+    width: 95%;
+    background-color: #e4e4e4;
+    border: none;
+    height: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>dashboard</title>
+
+    <link rel="stylesheet" href="assets/styles.css"/>
+    <link rel="stylesheet" href="assets/variables.css"/>
+    <link rel="stylesheet"
+          href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <script src="https://kit.fontawesome.com/299c5dff75.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="sidebar">
+    <div class="sidebar-inner">
+        <div class="row">
+            <div class="col-2">
+                <div class="logo">
+                    <img class="img-logo"
+                         src="assets/images/logo.png"
+                         alt="logo"
+                    />
+                </div>
+                <div class="sidebar-items text-center">
+                    <ul>
+                        <li><i class="fa fa-tachometer-alt"></i></li>
+                        <li><i class="fa fa-calendar-minus"></i></li>
+                        <li><i class="fa fa-comment-alt"></i></li>
+                        <li><i class="fa fa-chart-bar"></i></li>
+                        <li><i class="fa fa-gear"></i></li>
+                    </ul>
+                    <ul class="initial">
+                      <li><i class="fa fa-question-circle"></i></li>
+                      <li><h5 class="ck">CK <span class="badge">3</span></h5></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-8">
+                <h4 class="secondary-header" style="color: black"><b>Site Manager</b></h4>
+                <p class="title">DIRECTORIES</p>
+                <button class="btn btn-gray"><i class="fa fa-list list-journal"></i> Journal</button>
+                <button class="btn btn-blue"><i class="fa fa-list list-local"></i> Local Business</button>
+                <div class="sidebar-item">
+                    <p class="secondary-title">PAGES</p>
+                    <ul>
+                        <li><i class="fa fa-file"></i> Home</li>
+                        <li><i class="fa fa-file"></i> About Us</li>
+                        <li><i class="fa fa-file"></i> Advertise with Us</li>
+                        <li><i class="fa fa-file"></i> FAQ</li>
+                        <li><i class="fa fa-file"></i> Privacy</li>
+                        <li><i class="fa fa-file"></i> Term of Use</li>
+                        <li><i class="fa fa-file"></i> Contact</li>
+                        <li><i class="fa fa-file"></i> Add page</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="topbar">
+        <div class="row">
+            <div class="col-8">
+                <h2 class="main-header text-black">Business Reviews</h2>
+            </div>
+            <div class="col-4">
+                <div class="topbar-items">
+                    <ul>
+                        <li><input type="text" placeholder="Search"/></li>
+                        <li><i class="fa fa-gear top-gear"></i></li>
+                        <li><i class="fa fa-plus top-plus"></i></li>
+                        <li><i class="fa fa-sort-down top-down"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row main-row">
+        <div class="col-12">
+            <div class="main-content">
+                <div class="tab">
+                    <ul>
+                        <li class="active">All</li>
+                        <li>Pending</li>
+                        <li>Published</li>
+                    </ul>
+                </div>
+                <hr class="ruler">
+            </div>
+
+            <div class="row tab-secondary">
+                <div class="col-3">
+                    <p>Business <i class="fa fa-sort-down pl-2"></i></p>
+                </div>
+                <div class="col-3">
+                    <p>Reviewer<i class="fa fa-sort-down pl-2"></i></p>
+                </div>
+                <div class="col-4">
+                    <p>Review<i class="fa fa-sort-down pl-2"></i></p>
+                </div>
+                <div class="col-2">
+                    <p>Status<i class="fa fa-sort-down pl-2"></i></p>
+                </div>
+            </div>
+            <hr class="ruler">
+
+            <div class="row main-content-secondary">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 5px;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Anchor Oyster Bar </b><span class="dollar-sign">$</span></p>
+                            <p class="mt-2">Seafood, +3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 50%;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Jonathan Nolan</b></p>
+                            <p class="mt-2">Austin, Texas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star l-gray"></i>
+                    <span class="list-date">13/6/17 8:23PM</span>
+
+                    <p class="sub-title"><b>Highly Recomended Coffee</b></p>
+
+                    <p>Startbucks has an unusually human approach to business. We always figured that putting people
+                        before product just made
+                        good sense. Our relationship farmers yield the highest quality coffee... <a href="#">Read
+                            more</a>
+                    </p>
+
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="status-pending">Pending</p>
+                        </div>
+                        <div class="col-6">
+                            <p><b>...</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="ruler">
+            <div class="row main-content-secondary">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 5px;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>The Bowl Cafe <span class="dollar-sign">$</span></b></p>
+                            <p class="mt-2">Seafood, +3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 50%;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Eric Hoffman</b></p>
+                            <p class="mt-2">San Fransisco, SA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star l-gray"></i>
+                    <i class="fa fa-star l-gray"></i>
+                    <span class="list-date">13/6/17 8:23PM</span>
+
+                    <p class="sub-title"><b>Good food! Also the best place for meetings.</b></p>
+
+                    <p>Lots of free parking pace. polite staff. Service is fast and most importantly they are ready to
+                        serve with a smile
+                        even if it is in the night. There is a very good atmosphere and while you enjoy your coffee you
+                        can also read the kindles
+                        provided which have great short... <a href="#">Read more</a>
+                    </p>
+
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="status-published">Published</p>
+                        </div>
+                        <div class="col-6">
+                            <p><b>...</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="ruler">
+            <div class="row main-content-secondary">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 5px;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Mecto Bar <span class="dollar-sign">$</span></b></p>
+                            <p class="mt-2">Seafood, +3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 50%;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Steve Wolf</b></p>
+                            <p class="mt-2">France, Paris</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span class="list-date">13/6/17 8:23PM</span>
+
+                    <p class="sub-title"><b>Best seafood in moderate rate</b></p>
+
+                    <p>Good ambience. Customer are recieved and treated well, pleasnt and noise free. Good and decent
+                        crowd.
+                        Good place for personal.. Vehicle parking is a constraint... <a href="#">Read
+                            more</a>
+                    </p>
+
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="status-pending">Pending</p>
+                        </div>
+                        <div class="col-6">
+                            <p><b>...</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="ruler">
+            <div class="row main-content-secondary">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 5px;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Anchor Oyster Bar <span class="dollar-sign">$</span></b></p>
+                            <p class="mt-2">Seafood, +3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 50%;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Jonathan Nolan</b></p>
+                            <p class="mt-2">Austin, Texas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star l-gray"></i>
+                    <span class="list-date">13/6/17 8:23PM</span>
+
+                    <p class="sub-title"><b>Good Atmosphere and customer service</b></p>
+
+                    <p class="sub-title">Startbucks has an unusually human approach to business. We always figured that
+                        putting people
+                        before product just made
+                        good sense. Our relationship farmers yield the highest quality coffee... <a href="#">Read
+                            more</a>
+                    </p>
+
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="status-pending">Pending</p>
+                        </div>
+                        <div class="col-6">
+                            <p><b>...</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="ruler">
+            <div class="row main-content-secondary">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 5px;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Anchor Oyster Bar <span class="dollar-sign">$</span></b></p>
+                            <p class="mt-2">Seafood, +3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/image.jpeg" alt="photo"
+                                 style="height: 40px; width: 40px; border-radius: 50%;">
+                        </div>
+                        <div class="col-10">
+                            <p><b>Jonathan Nolan</b></p>
+                            <p class="mt-2">Austin, Texas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star l-gray"></i>
+                    <span class="list-date">13/6/17 8:23PM</span>
+
+                    <p class="sub-title"><b>Highly Recomended Barbique</b></p>
+
+                    <p class="sub-title">Startbucks has an unusually human approach to business. We always figured that
+                        putting people
+                        before product just made
+                        good sense. Our relationship farmers yield the highest quality coffee... <a href="#">Read
+                            more</a>
+                    </p>
+
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="status-published">Published</p>
+                        </div>
+                        <div class="col-6">
+                            <p><b>...</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
